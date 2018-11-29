@@ -1,0 +1,20 @@
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="../assets/images/quinnox.png" id="icon" alt="User Icon" />
+      <h1>Login</h1>
+    </div>
+
+    <!-- Login Form -->
+    <form> 
+      <input type="text"  class="fadeIn second"  [(ngModel)]="username" name="name" placeholder="username">
+      <input type="password"  class="fadeIn third" [(ngModel)]="password"  name="password" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In" routerLink="/home">
+    </form>
+
+  </div>
+</div>
+{{username}}
